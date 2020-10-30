@@ -28,14 +28,14 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_gravity="center_horizontal"
-            android:padding="40dp">
+            android:padding="42dp">
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Username"
-            android:textSize="20sp"
-            android:paddingBottom="16dp"
+            android:textSize="24sp"
+            android:paddingBottom="12dp"
             />
         <EditText
             android:id="@+id/password"
@@ -49,8 +49,8 @@
             android:text="Forgot Password?"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
-            android:textColor="#061116"
+            android:textSize="16sp"
+            android:textColor="#061014"
             android:layout_gravity="end"
 
             />
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:text="Don't have an account? Sign Up"
             android:textColor="#80000000"
-            android:textSize="15sp"
+            android:textSize="16sp"
             android:layout_gravity="center"
             />
 
